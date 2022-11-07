@@ -73,19 +73,19 @@ export default function Home() {
 									<div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
 										<a
 											href="/about"
-											className="font-medium text-gray-500 hover:text-gray-900"
+											className="font-medium text-gray-500 hover:text-gray-900 hover:border-b-2 border-green-600"
 										>
 											About
 										</a>
 										<a
 											href="/products"
-											className="font-medium text-gray-500 hover:text-gray-900"
+											className="font-medium text-gray-500 hover:text-gray-900 hover:border-b-2 border-green-600"
 										>
 											Products
 										</a>
 										<a
 											href="/contact"
-											className="font-medium text-gray-500 hover:text-gray-900"
+											className="font-medium text-gray-500 hover:text-gray-900 hover:border-b-2 border-green-600"
 										>
 											Contact
 										</a>
@@ -147,6 +147,7 @@ export default function Home() {
 							</div>
 						</div>
 
+						{/* Hero */}
 						<section className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
 							<div className="sm:text-center lg:text-left">
 								<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
@@ -175,67 +176,67 @@ export default function Home() {
 				</div>
 			</div>
 
-			<section className="p-8 bg-green-600 text-center">
-				<div className="pb-4 mt-10 w-full lg:w-2/3 mx-auto">
-					<h2 className="font-bold tracking-tight text-white text-5xl md:text-7xl">
+			{/* Offerings */}
+			<section className="block lg:flex px-0 pt-8 pb-4 sm:px-8 sm:pt-16 bg-white text-center">
+				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
+					<h2 className="font-bold tracking-tig text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
 						<div className="py-4">
-							<span className="text-red-600">Steak</span> and{' '}
-							<span className="text-teal-200">Seafood</span>
+							Chicken and <span className="text-red-600">Steak</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="border-2 border-white"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-red-600 rounded-3xl"
 							src={meat}
 							alt="meat"
 							height={1000}
 							width={1000}
 						/>
-						<div class="opacity-0 hover:opacity-100 m-0.5 p-2 duration-300 absolute inset-0 z-10 flex justify-center items-center text-md sm:text-lg text-white bg-black bg-opacity-60">
-							At games, we pride ourself on the quality of our meat products and
-							the price in which they can be offered. We take special care in
-							ensuring a consistent quality control for our loyal patrons.
+						<div class="w-full md:w-3/4 lg:w-full mx-auto opacity-0 hover:opacity-100 p-8 duration-300 absolute inset-0 z-10 flex justify-center items-center text-md text-white bg-black bg-opacity-60 rounded-3xl">
+							At games, we pride ourself on the quality and price of our meat
+							products. We take special care in ensuring a consistent quality
+							control for our loyal patrons.
 						</div>
 					</div>
 				</div>
-				<div className="pb-4 mt-10 w-full lg:w-2/3 mx-auto">
-					<h2 className="font-bold tracking-tight text-white text-5xl md:text-7xl">
+				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
+					<h2 className="font-bold tracking-tight text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
 						<div className="py-4">
-							<span className="text-orange-400">Fruits</span> and{' '}
-							<span className="text-yellow-400">Veggies</span>
+							Fruits and <span className="text-yellow-400">Veggies</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="border-2 border-white"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-yellow-400 rounded-3xl"
 							src={produce}
 							alt="produce"
 							height={1000}
 							width={1000}
 						/>
-						<div class="opacity-0 hover:opacity-100 m-0.5 p-2 duration-300 absolute inset-0 z-10 flex justify-center items-center text-md sm:text-lg text-white bg-black bg-opacity-60">
+						<div class="w-full md:w-3/4 lg:w-full mx-auto opacity-0 hover:opacity-100 p-8 duration-300 absolute inset-0 z-10 flex justify-center items-center text-md text-white bg-black bg-opacity-60 rounded-3xl">
 							Much like our meat selection, our produce is procured from local
 							farmers. Gauranteed to be organic, our fruits and vegetables are
 							as fresh as they come.
 						</div>
 					</div>
 				</div>
-				<div className="pb-4 mt-10 w-full lg:w-2/3 mx-auto">
-					<h2 className="font-bold tracking-tight text-white text-5xl md:text-7xl">
+				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
+					<h2 className="font-bold tracking-tight text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
 						<div className="py-4">
 							Amish <span className="text-purple-800">Baked Goods</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="border-2 border-white"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-purple-800 rounded-3xl"
 							src={amish}
 							alt="produce"
 							height={1000}
 							width={1000}
 						/>
-						<div class="opacity-0 hover:opacity-100 m-0.5 p-2 duration-300 absolute inset-0 z-10 flex justify-center items-center text-md sm:text-lg text-white bg-black bg-opacity-60">
-              As with our other offerings, our store partners with local Amish bakers to provided some of the community's richest baked goods.
+						<div class="w-full md:w-3/4 lg:w-full mx-auto opacity-0 hover:opacity-100 p-8 duration-300 absolute inset-0 z-10 flex justify-center items-center text-md text-white bg-black bg-opacity-60 rounded-3xl">
+							As with our other offerings, our store partners with local Amish
+							bakers to provided some of the community's richest baked goods.
 						</div>
 					</div>
 				</div>
@@ -294,7 +295,8 @@ export default function Home() {
 						Contact Us
 					</h2>
 					<p className="mb-8 lg:mb-16 font-light text-center text-gray-500 text-gray-400 sm:text-xl">
-						Did we make your day? Do we carrying everything you shop for? Let us know.
+						Did we make your day? Do we carrying everything you shop for? Let us
+						know.
 					</p>
 					<form action="#" className="space-y-8">
 						<div>
@@ -349,6 +351,9 @@ export default function Home() {
 						</button>
 					</form>
 				</div>
+				<footer className="flex justify-center pb-6 text-xs text-gray-300">
+					Copyright &copy; 2022 Patrick Mahloy
+				</footer>
 			</section>
 		</div>
 	);
