@@ -37,7 +37,7 @@ export default function Home() {
 								>
 									<div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
 										<div className="flex w-full items-center justify-between md:w-auto">
-											<a href="#" className='text-4xl'>
+											<a href="/" className='text-4xl font-semibold'>
 												<span className="sr-only">Your Company</span>
 												Game's Farmers Market
 											</a>
@@ -70,19 +70,19 @@ export default function Home() {
 									</div>
 									<div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
 										<a
-											href="#"
+											href="/about"
 											className="font-medium text-gray-500 hover:text-gray-900"
 										>
 											About
 										</a>
 										<a
-											href="#"
+											href="/products"
 											className="font-medium text-gray-500 hover:text-gray-900"
 										>
 											Products
 										</a>
 										<a
-											href="#"
+											href="/contact"
 											className="font-medium text-gray-500 hover:text-gray-900"
 										>
 											Contact
@@ -99,7 +99,7 @@ export default function Home() {
 										<div>
 											<button
 												type="button"
-												className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+												className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-600"
 											>
 												<span className="sr-only">Close main menu</span>
 
@@ -123,19 +123,19 @@ export default function Home() {
 									</div>
 									<div className="space-y-1 px-2 pt-2 pb-3">
 										<a
-											href="#"
+											href="/about"
 											className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 										>
 											About
 										</a>
 										<a
-											href="#"
+											href="/products"
 											className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 										>
 											Products
 										</a>
 										<a
-											href="#"
+											href="/contact"
 											className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
 										>
 											Contact
