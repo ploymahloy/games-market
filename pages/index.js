@@ -262,7 +262,7 @@ export default function Home() {
 					<h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
 						Jane Doe
 					</h2>
-					<p className="text-gray-500">Local Guide</p>
+					<p className="text-gray-500">Regular Shopper</p>
 				</div>
 				<div className="p-12 md:w-1/2 text-center">
 					<svg
@@ -283,7 +283,7 @@ export default function Home() {
 					<h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
 						John Customer
 					</h2>
-					<p className="text-gray-500">Senior Product Designer</p>
+					<p className="text-gray-500">Local Guide</p>
 				</div>
 			</section>
 
@@ -294,8 +294,7 @@ export default function Home() {
 						Contact Us
 					</h2>
 					<p className="mb-8 lg:mb-16 font-light text-center text-gray-500 text-gray-400 sm:text-xl">
-						Got a technical issue? Want to send feedback about a beta feature?
-						Need details about our Business plan? Let us know.
+						Did we make your day? Do we carrying everything you shop for? Let us know.
 					</p>
 					<form action="#" className="space-y-8">
 						<div>
