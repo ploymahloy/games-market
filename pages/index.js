@@ -202,12 +202,12 @@ export default function Home() {
 				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
 					<h2 className="font-bold tracking-tight text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
 						<div className="py-4">
-							Fruits and <span className="text-yellow-400">Veggies</span>
+							Fruits and <span className="text-green-600">Veggies</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-yellow-400 rounded-3xl"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-green-600 rounded-3xl"
 							src={produce}
 							alt="produce"
 							height={1000}
