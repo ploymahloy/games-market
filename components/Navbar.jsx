@@ -20,7 +20,7 @@ export default function Navbar() {
 						<div className="-mr-2 flex items-center md:hidden">
 							<button
 								type="button"
-								className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+								className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-600"
 								aria-expanded="false"
 							>
 								<span className="sr-only">Open main menu</span>
@@ -58,10 +58,10 @@ export default function Navbar() {
 						Products
 					</a>
 					<a
-						href="/contact"
+						href="/hours"
 						className="font-medium text-gray-500 hover:text-gray-900"
 					>
-						Contact
+						Hours
 					</a>
 				</div>
 			</nav>
