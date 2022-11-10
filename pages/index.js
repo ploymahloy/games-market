@@ -263,7 +263,7 @@ export default function Home() {
 					<h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
 						Jane Doe
 					</h2>
-					<p className="text-gray-500">Regular Shopper</p>
+					<p className="text-gray-500">Frequent Shopper</p>
 				</div>
 				<div className="p-12 md:w-1/2 text-center">
 					<svg
@@ -289,12 +289,12 @@ export default function Home() {
 			</section>
 
 			{/* Contact Form */}
-			<section className="bg-gray-900">
+			<section className="bg-green-600">
 				<div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-					<h2 className="mb-4 text-5xl font-extrabold text-center text-green-600">
+					<h2 className="mb-4 text-5xl font-extrabold text-center text-neutral-900">
 						Contact Us
 					</h2>
-					<p className="mb-8 lg:mb-16 font-light text-center text-gray-500 text-gray-400 sm:text-xl">
+					<p className="mb-8 lg:mb-16 font-light text-center text-neutral-900 sm:text-xl">
 						Did we make your day? Do we carrying everything you shop for? Let us
 						know.
 					</p>
@@ -302,29 +302,29 @@ export default function Home() {
 						<div>
 							<label
 								for="email"
-								className="block mb-2 text-md font-medium text-gray-900 text-gray-300"
+								className="block mb-2 text-md font-medium text-neutral-900"
 							>
 								Your email
 							</label>
 							<input
 								type="email"
 								id="email"
-								className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-								placeholder="name@flowbite.com"
+								className="shadow-sm bg-neutral-900 border border-gray-300 text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
+								placeholder="name@gamesfarmersmarket.com"
 								required
 							/>
 						</div>
 						<div>
 							<label
 								for="subject"
-								className="block mb-2 text-md font-medium text-gray-900 text-gray-300"
+								className="block mb-2 text-md font-medium text-neutral-900"
 							>
 								Subject
 							</label>
 							<input
 								type="text"
 								id="subject"
-								className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
+								className="block p-3 w-full text-sm bg-neutral-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
 								placeholder="Let us know how we can help you"
 								required
 							/>
@@ -332,26 +332,26 @@ export default function Home() {
 						<div className="sm:col-span-2">
 							<label
 								for="message"
-								className="block mb-2 text-sm font-medium text-gray-900 text-gray-400"
+								className="block mb-2 text-sm font-medium text-neutral-900"
 							>
 								Your message
 							</label>
 							<textarea
 								id="message"
 								rows="6"
-								className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
+								className="block p-2.5 w-full text-sm bg-neutral-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
 								placeholder="Leave a comment..."
 							></textarea>
 						</div>
 						<button
 							type="submit"
-							className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
+							className="py-3 px-5 text-sm font-medium text-center text-neutral-900 hover:text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-neutral-900 focus:ring-4 focus:outline-none focus:ring-neutral-900 bg-primary-600 hover:bg-neutral-900 focus:ring-neutral-900"
 						>
 							Send message
 						</button>
 					</form>
 				</div>
-				<footer className="flex justify-center pb-6 text-xs text-gray-300">
+				<footer className="flex justify-center pb-6 text-xs text-neutral-900">
 					Copyright &copy; 2022 Patrick Mahloy
 				</footer>
 			</section>
