@@ -177,16 +177,16 @@ export default function Home() {
 			</div>
 
 			{/* Offerings */}
-			<section className="block lg:flex px-0 pt-8 pb-4 sm:px-8 sm:pt-16 bg-white text-center">
-				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
-					<h2 className="font-bold tracking-tig text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
+			<section className="block lg:flex px-0 pt-12 pb-4 sm:px-8 sm:pt-16 bg-white text-center">
+				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-3">
+					<h2 className="font-bold tracking-tig text-3xl sm:text-4xl lg:text-3xl xl:text-4xl">
 						<div className="py-4">
 							Chicken and <span className="text-red-600">Steak</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-red-600 rounded-3xl"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-6 border-red-600 rounded-3xl"
 							src={meat}
 							alt="meat"
 							height={1000}
@@ -199,15 +199,15 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
-					<h2 className="font-bold tracking-tight text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
+				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-3">
+					<h2 className="font-bold tracking-tig text-3xl sm:text-4xl lg:text-3xl xl:text-4xl">
 						<div className="py-4">
 							Fruits and <span className="text-green-600">Veggies</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-green-600 rounded-3xl"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-6 border-green-600 rounded-3xl"
 							src={produce}
 							alt="produce"
 							height={1000}
@@ -220,15 +220,15 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-1.5">
-					<h2 className="font-bold tracking-tight text-3xl sm:text-4xl sm:text-5xl lg:text-4xl">
+				<div className="pb-4 w-full lg:w-2/3 mx-auto md:space-x-3">
+					<h2 className="font-bold tracking-tig text-3xl sm:text-4xl lg:text-3xl xl:text-4xl">
 						<div className="py-4">
 							Amish <span className="text-purple-800">Baked Goods</span>
 						</div>
 					</h2>
 					<div class="relative">
 						<Image
-							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-4 border-purple-800 rounded-3xl"
+							className="w-full md:w-3/4 lg:w-full mx-auto border-8 lg:border-6 border-purple-800 rounded-3xl"
 							src={amish}
 							alt="produce"
 							height={1000}
