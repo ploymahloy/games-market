@@ -12,64 +12,73 @@ export default function Hours() {
 
 			<Navbar />
 
-			<div className="sm:flex justify-around mt-10">
-				<div className="px-5 py-3 border-2 sm:rounded-xl border-neutral-300 bg-neutral-100">
-					<h2 className="pt-2 pb-5 text-4xl text-center">
-						Hours of Operation
-					</h2>
-					<table className="mx-auto text-left text-xl">
-						<tr>
-							<th></th>
-							<th className="text-center">Open</th>
-							<th className="text-center">Close</th>
-						</tr>
-						<tr>
-							<td className="p-3">Sunday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-						<tr>
-							<td className="p-3">Monday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-						<tr>
-							<td className="p-3">Tuesday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-						<tr>
-							<td className="p-3">Wednesday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-						<tr>
-							<td className="p-3">Thursday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-						<tr>
-							<td className="p-3">Friday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-						<tr>
-							<td className="p-3">Saturday</td>
-							<td className="p-3">7:00 am</td>
-							<td className="p-3">9:00 pm</td>
-						</tr>
-					</table>
-				</div>
-				<div className="mt-3 sm:mt-0 px-6 py-5 border-2 sm:rounded-xl border-neutral-300 bg-neutral-100 h-min">
-					<h2 className="pb-5 text-4xl">Location</h2>
-          <p className='pb-1 text-xl'>
-            503 Harpersville Rd.<br />
-            Newport News, VA 23601
-          </p>
-          {/* <hr className='my-8 bg-red-900' /> */}
-          <hr class="my-6 h-px border-0 bg-neutral-300" />
-          <h2 className="pb-5 text-4xl">Phone</h2>
-          <p className='text-xl'>757-595-1887</p>
+			<div className="mt-10 mx-auto px-3 py-6 bg-red-700">
+				<div className="md:flex justify-around">
+					<div className="px-8 py-3 border-2 rounded-xl border-neutral-300 bg-neutral-100">
+						<h2 className="pt-2 pb-5 text-4xl text-center">
+							Hours of Operation
+						</h2>
+						<table className="mx-auto text-left text-xl">
+							<tr>
+								<th></th>
+								<th className="text-center">Open</th>
+								<th className="text-center">Close</th>
+							</tr>
+							<tr>
+								<td className="p-3">Sunday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+							<tr>
+								<td className="p-3">Monday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+							<tr>
+								<td className="p-3">Tuesday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+							<tr>
+								<td className="p-3">Wednesday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+							<tr>
+								<td className="p-3">Thursday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+							<tr>
+								<td className="p-3">Friday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+							<tr>
+								<td className="p-3">Saturday</td>
+								<td className="p-3">7:00 am</td>
+								<td className="p-3">9:00 pm</td>
+							</tr>
+						</table>
+					</div>
+					<div className="mt-3 md:mt-0 px-6 py-5 border-2 rounded-xl border-neutral-300 bg-neutral-100 h-min text-center md:text-left">
+						<h2 className="pb-5 text-4xl">Location</h2>
+						<p className="pb-1 text-xl">
+							503 Harpersville Rd.
+							<br />
+							Newport News, VA 23601
+						</p>
+						<hr className="my-6 h-px border-0 bg-neutral-300" />
+						<h2 className="pb-5 text-4xl">Phone</h2>
+						<p className="text-xl">757-595-1887</p>
+						<hr className="my-6 h-px border-0 bg-neutral-300" />
+						<h2 className="pb-2 text-4xl">Email</h2>
+            <a className="block text-lg underline" href="mailto:office@gamesmarket.biz">Office</a>
+            <a className="block text-lg underline" href="mailto:grocery@gamesmarket.biz">Grocery</a>
+            <a className="block text-lg underline" href="mailto:meatdept@gamesmarket.biz">Meat</a>
+            <a className="block text-lg underline" href="mailto:produce@gamesmarket.biz">Produce</a>
+            <a className="block text-lg underline" href="mailto:nursery@gamesmarket.biz">Nursery</a>
+					</div>
 				</div>
 			</div>
 		</>
