@@ -246,7 +246,7 @@ export default function Home() {
 						</svg>
 						<p className="leading-relaxed text-lg">
 							I love Farmers Market! Been going to this place since I was a
-							young girl and it's still going strong. The meats are beautiful
+              young girl and it{`'`}s still going strong. The meats are beautiful
 							and fresh. You can even buy cases of meat. And the old fashion
               candy and cookies are amazing! If you haven{`'`}t been, you should go!
 						</p>

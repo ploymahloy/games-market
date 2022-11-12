@@ -12,7 +12,7 @@ export default function Navbar() {
 						<div className="flex w-full items-center justify-between md:w-auto">
 							<Link href="/" className="text-4xl font-semibold">
 								<span className="sr-only">Your Company</span>
-								Game's Farmers Market
+                Game{`'`}s Farmers Market
 							</Link>
 							<div className="-mr-2 flex items-center md:hidden">
 								<button
@@ -60,7 +60,7 @@ export default function Navbar() {
 			<div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
 				<div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
 					<div className="flex items-center justify-between px-5 pt-4">
-						<div className="text-xl font-medium">Game's Farmers Market</div>
+            <div className="text-xl font-medium">Game{`'`}s Farmers Market</div>
 						<div>
 							<button
 								type="button"
