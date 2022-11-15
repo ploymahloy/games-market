@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Navbar() {
+	const [isActive, setIsActive] = useState(false);
+
 	return (
 		<div>
 			<div className="relative px-4 py-6 sm:px-6 lg:px-8">
@@ -10,15 +13,16 @@ export default function Navbar() {
 				>
 					<div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
 						<div className="flex w-full items-center justify-between md:w-auto">
-							<Link href="/" className="text-4xl font-semibold">
+							<Link href="/" className="text-xl sm:text-4xl font-semibold">
 								<span className="sr-only">Your Company</span>
-                Game{`'`}s Farmers Market
+								Game{`'`}s Farmers Market
 							</Link>
 							<div className="-mr-2 flex items-center md:hidden">
 								<button
 									type="button"
 									className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500"
 									aria-expanded="false"
+									onClick={() => setIsActive(true)}
 								>
 									<span className="sr-only">Open main menu</span>
 
@@ -57,14 +61,20 @@ export default function Navbar() {
 					</div>
 				</nav>
 			</div>
-			<div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
+			<div
+				className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"
+				style={{ display: isActive ? 'block' : 'none' }}
+			>
 				<div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
 					<div className="flex items-center justify-between px-5 pt-4">
-            <div className="text-xl font-medium">Game{`'`}s Farmers Market</div>
+						<Link href="/" className="text-xl font-medium">
+							Game{`'`}s Farmers Market
+						</Link>
 						<div>
 							<button
 								type="button"
 								className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-600"
+								onClick={() => setIsActive(false)}
 							>
 								<span className="sr-only">Close main menu</span>
 
